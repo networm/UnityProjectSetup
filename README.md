@@ -18,7 +18,7 @@ Method 1
 $ python unity.py <path/to/new/project>
 ```
 
-Method 2
+Method 2 will create project in `../projectname`
 ```sh
 $ python unity.py
 Unity project name: <input project name>
