@@ -23,3 +23,7 @@ Method 2 will create project in `../projectname`
 $ python unity.py
 Unity project name: <input project name>
 ```
+
+## Environment
+Unity 5.3.1f1
+OS X 10.10.4
