@@ -26,7 +26,8 @@ Unity project name: <input project name>
 
 ## Environment
 Unity 5.3.1f1
-OS X 10.10.4
+OS X 10.11.4
+python 2.7.10
 
 ## LICENSE
 MIT-LICENSE
