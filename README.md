@@ -1,5 +1,5 @@
 # UnityProjectSetup
-Auto setup a new Unity project from scratch.
+Auto setup a new Unity project from scratch on Windows and OS X.
 
 ## Introduction
 This tool will automatically do the following:
@@ -25,9 +25,15 @@ Unity project name: <input project name>
 ```
 
 ## Environment
-Unity 5.3.1f1
-OS X 10.11.4
-python 2.7.10
+OS X
+* OS X 10.11.4
+* Unity 5.3.1f1
+* python 2.7.10
+
+Windows
+* Windows 10
+* Unity 5.3.4f1
+* python 2.7.11
 
 ## LICENSE
 MIT-LICENSE
