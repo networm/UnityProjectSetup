@@ -77,7 +77,7 @@ def license(git, sourcedir, projectpath):
 
 def main(argv):
     projectname = ""
-    projectpath = os.getcwd()
+    projectpath = os.path.dirname(os.path.realpath(__file__))
     sourcedir = os.path.dirname(os.path.realpath(__file__))
 
     if len(argv) > 1:
@@ -87,7 +87,7 @@ def main(argv):
     else:
         while os.path.exists(projectpath):
             projectname = raw_input("Unity project name: ")
-            dir = os.path.abspath(os.path.join(os.getcwd(), os.path.pardir))
+            dir = os.path.abspath(os.path.join(projectpath, os.path.pardir))
             projectpath = os.path.join(dir, projectname)
 
     print "Unity Project: " + projectpath
