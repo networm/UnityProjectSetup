@@ -65,7 +65,7 @@ def gitfile(git, sourcedir, projectpath):
 
 
 def readme(git, sourcedir, projectpath, projectname):
-    content = "# {0}\n".format(projectname)
+    content = "# {0}\r\n".format(projectname)
     open(os.path.join(projectpath, "README.md"), 'w').write(content)
     gitcommit(git, projectpath, "Add README")
 
